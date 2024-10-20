@@ -32,12 +32,11 @@ const Header = (props: HeaderProps) => {
           </Text>
         </Pressable>
 
-        {/* Botón con ícono de theme-light-dark */}
         <Pressable onPress={props.toggleTheme} style={styles.iconButton}>
           <MaterialCommunityIcons
-            name="theme-light-dark" // Ícono de modo oscuro/clar
+            name="theme-light-dark"
             size={24}
-            color={props.isDarkMode ? "white" : "pink"} // Cambia el color según el tema
+            color={props.isDarkMode ? "white" : "pink"}
           />
         </Pressable>
       </View>

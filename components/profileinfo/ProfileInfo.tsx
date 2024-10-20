@@ -29,7 +29,7 @@ const ProfileInfo = (props: ProfileInfoProps) => {
 
 const lightTheme = StyleSheet.create({
   descriptionContainer: {
-    backgroundColor: "lightgray",
+    backgroundColor: "pink",
   },
   title: {
     color: "#000",

@@ -37,7 +37,7 @@ const Header = (props: HeaderProps) => {
           <MaterialCommunityIcons
             name="theme-light-dark" // Ícono de modo oscuro/clar
             size={24}
-            color={props.isDarkMode ? "#FFD700" : "black"} // Cambia el color según el tema
+            color={props.isDarkMode ? "white" : "pink"} // Cambia el color según el tema
           />
         </Pressable>
       </View>
@@ -50,7 +50,7 @@ const lightTheme = StyleSheet.create({
     color: "white",
   },
   buttonText: {
-    color: "black",
+    color: "pink",
   },
 });
 
@@ -68,6 +68,7 @@ const styles = StyleSheet.create({
     height: "15%",
     paddingTop: 50,
     width: "100%",
+    backgroundColor: "purple",
   },
   title: {
     textAlign: "center",

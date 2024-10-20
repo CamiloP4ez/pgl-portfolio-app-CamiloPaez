@@ -76,6 +76,6 @@ const styles = StyleSheet.create({
   },
   clearedApp: {
     flex: 1,
-    backgroundColor: "#fff", // Fondo blanco cuando la app esté "borrada"
+    backgroundColor: "#fff",
   },
 });

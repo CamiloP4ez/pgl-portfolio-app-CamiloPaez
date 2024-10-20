@@ -1,7 +1,25 @@
-# pgl-portfolio-app
+# Mi Aplicación React Native
 
-Por favor, no tengas en cuenta la calidad del código que ves en esta app.
-Es puramente representativa para la modificación posterior por parte de alumnado.
-Me ha costado mucho esfuerzo y trabajo hacerlo tan mal. :)
+Esta es una aplicación React Native que presenta información de perfil, listas de cosas que me gustan, un código QR y un tema claro/oscuro. La aplicación permite alternar entre mostrar información de perfil y un código QR.
 
-Hasta gracias y muchas nunca.
+## Características
+
+- Modo claro y oscuro.
+- Visualización de información de perfil.
+- Listas de "cosas que me gustan".
+- Generación de un código QR.
+- Opción para limpiar la aplicación y restablecerla a un fondo blanco.
+
+## Tecnologías
+
+- React Native
+- Expo (opcional, pero recomendado para facilitar el desarrollo)
+
+## Instalación
+
+1. Clona el repositorio:
+
+   ```bash
+   git clone https://github.com/tu-usuario/tu-repo.git
+   cd tu-repo
+   ```

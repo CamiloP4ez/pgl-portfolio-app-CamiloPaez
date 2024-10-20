@@ -34,9 +34,9 @@ const Header = (props: HeaderProps) => {
 
         <Pressable onPress={props.toggleTheme} style={styles.iconButton}>
           <MaterialCommunityIcons
-            name="theme-light-dark" 
+            name="theme-light-dark"
             size={24}
-            color={props.isDarkMode ? "#FFD700" : "black"} 
+            color={props.isDarkMode ? "white" : "pink"}
           />
         </Pressable>
       </View>
@@ -49,7 +49,7 @@ const lightTheme = StyleSheet.create({
     color: "white",
   },
   buttonText: {
-    color: "black",
+    color: "pink",
   },
 });
 
@@ -67,6 +67,7 @@ const styles = StyleSheet.create({
     height: "15%",
     paddingTop: 50,
     width: "100%",
+    backgroundColor: "purple",
   },
   title: {
     textAlign: "center",

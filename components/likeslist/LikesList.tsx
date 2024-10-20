@@ -36,7 +36,7 @@ const LikesList = (props: LikesListProps) => {
 
 const lightTheme = StyleSheet.create({
   likeText: {
-    backgroundColor: "silver",
+    backgroundColor: "#33ffd4",
     color: "darkred",
   },
 });
@@ -53,8 +53,8 @@ const styles = StyleSheet.create({
     padding: 10,
   },
   likeText: {
-    borderColor: "black",
-    borderWidth: 1,
+    borderColor: "yellow",
+    borderWidth: 2,
     borderStyle: "dashed",
     padding: 20,
     textAlign: "center",
